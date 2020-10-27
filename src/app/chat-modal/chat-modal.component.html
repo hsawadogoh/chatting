@@ -1,0 +1,130 @@
+<div class="html">
+  <div class="body">
+    <div id="chat-container">
+      <div id="search-container">
+        <input type="text" placeholder="Search"/>
+      </div>
+
+      <div id="conversation-list">
+        <div class="conversation active" (click)="getSelectedUser('MAIGA Abdoul-Razack')">
+          <img src="../../assets/images/profil.png" alt="Daryl Duckmanton"/>
+
+          <div class="title-text">
+            MAIGA Abdoul-Razack
+          </div>
+
+          <div class="created-date">
+            7
+          </div>
+        </div>
+
+        <div class="conversation active" (click)="getSelectedUser('SOME Narcisse')">
+          <img src="../../assets/images/profil.png" alt="Daryl Duckmanton"/>
+
+          <div class="title-text">
+            SOME Narcisse
+          </div>
+
+          <div class="created-date">
+            2
+          </div>
+        </div>
+
+        <div class="conversation active" (click)="getSelectedUser('NIKIEMA Abdoul')">
+          <img src="../../assets/images/profil.png" alt="Daryl Duckmanton"/>
+
+          <div class="title-text">
+            NIKIEMA Abdoul
+          </div>
+
+          <div class="created-date">
+            10
+          </div>
+        </div>
+      </div>
+
+      <div id="new-message-container">
+
+      </div>
+
+      <div id="chat-title">
+        <span>{{ user }}</span>
+      </div>
+
+      <div id="chat-message-list">
+
+        <div class="text-center">
+          <img src="../../assets/images/chatting.png" class="img-fluid w-50 h-75" alt="">
+          <p class="text-center text-warning font-weight-bold h4">
+            Aucun nouveau message trouvé!
+          </p>
+
+          <p class="text-center text-secondary font-weight-bold h5">
+            Envoyez votre premier message!
+          </p>
+        </div>
+
+        <!--<div class="message-row you-message">
+          <div class="message-text">Ok then</div>
+          <div class="message-time">23/10/2020 à 17:05</div>
+        </div>
+
+        <div class="message-row other-message">
+          <div class="message-text">Lorem ipsum dolor sit ame
+            t, consectetur adipisicing elit. Ab aliquam cupiditate,
+            dignissimos doloribus earum error facilis illo inventore ipsa magni minima modi molestiae no
+            strum odit possimus quidem quis sit voluptatem!
+          </div>
+          <div class="message-time">23/10/2020 à 17:05</div>
+        </div>
+
+        <div class="message-row other-message">
+          <div class="message-text">Ok then</div>
+          <div class="message-time">23/10/2020 à 17:05</div>
+        </div>
+
+        <div class="message-row you-message">
+          <div class="message-text">Lorem ipsum dolor sit ame
+            t, consectetur adipisicing elit. Ab aliquam cupiditate,
+            dignissimos doloribus earum error facilis illo inventore ipsa magni minima modi molestiae no
+            strum odit possimus quidem quis sit voluptatem!
+          </div>
+          <div class="message-time">23/10/2020 à 17:05</div>
+        </div>
+
+        <div class="message-row you-message">
+          <div class="message-text">Ok then</div>
+          <div class="message-time">23/10/2020 à 17:05</div>
+        </div>
+
+        <div class="message-row other-message">
+          <div class="message-text">Lorem ipsum dolor sit ame
+            t, consectetur adipisicing elit. Ab aliquam cupiditate,
+            dignissimos doloribus earum error facilis illo inventore ipsa magni minima modi molestiae no
+            strum odit possimus quidem quis sit voluptatem!
+          </div>
+          <div class="message-time">23/10/2020 à 17:05</div>
+        </div>
+
+        <div class="message-row other-message">
+          <div class="message-text">Ok then</div>
+          <div class="message-time">23/10/2020 à 17:05</div>
+        </div>
+
+        <div class="message-row you-message">
+          <div class="message-text">Lorem ipsum dolor sit ame
+            t, consectetur adipisicing elit. Ab aliquam cupiditate,
+            dignissimos doloribus earum error facilis illo inventore ipsa magni minima modi molestiae no
+            strum odit possimus quidem quis sit voluptatem!
+          </div>
+          <div class="message-time">23/10/2020 à 17:05</div>
+        </div>-->
+      </div>
+
+      <div id="chat-form">
+        <img src="../../assets/images/link.svg" alt="Add Attachement"/>
+        <textarea placeholder="Type a message" rows="1" cols="2"></textarea>
+      </div>
+    </div>
+  </div>
+</div>

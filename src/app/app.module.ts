@@ -7,12 +7,14 @@ import { FileComponent } from './file/file.component';
 import {HttpClientModule} from '@angular/common/http';
 import {FormsModule} from '@angular/forms';
 import { ChattingComponent } from './chatting/chatting.component';
+import { ChatModalComponent } from './chat-modal/chat-modal.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     FileComponent,
-    ChattingComponent
+    ChattingComponent,
+    ChatModalComponent
   ],
   imports: [
     BrowserModule,
